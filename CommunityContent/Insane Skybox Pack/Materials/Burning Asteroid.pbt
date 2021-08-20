@@ -2,7 +2,7 @@ Assets {
   Id: 17204764322434445720
   Name: "Burning Asteroid"
   PlatformAssetType: 13
-  SerializationVersion: 94
+  SerializationVersion: 95
   CustomMaterialAsset {
     BaseMaterialId: 12972433573668126672
     ParameterOverrides {
