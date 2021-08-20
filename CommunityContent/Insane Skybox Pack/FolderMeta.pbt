@@ -1,0 +1,91 @@
+MetaVersion: 1
+MarketplaceDetails {
+  Id: "b452e3caf53142d9ace3b6e35999e97f"
+  OwnerAccountId: "111fdb0a14b0407cb48f5856cf6f8f6e"
+  OwnerName: "LotusCracker"
+  Version: "1.0.0"
+}
+AssetIdsOriginalToNew {
+  key: 359785738911314931
+  value: 16936412670914000537
+}
+AssetIdsOriginalToNew {
+  key: 1429881410273886500
+  value: 15939578222047737512
+}
+AssetIdsOriginalToNew {
+  key: 1964759643402107031
+  value: 11790858786989936555
+}
+AssetIdsOriginalToNew {
+  key: 2334773106714564986
+  value: 14689708617133087531
+}
+AssetIdsOriginalToNew {
+  key: 2996014390373145380
+  value: 2219844200225395704
+}
+AssetIdsOriginalToNew {
+  key: 3904606386949500829
+  value: 9772266566520632542
+}
+AssetIdsOriginalToNew {
+  key: 4184259940306038154
+  value: 7000982890012461931
+}
+AssetIdsOriginalToNew {
+  key: 5279610698521631504
+  value: 13401511137121154695
+}
+AssetIdsOriginalToNew {
+  key: 5782911601719549788
+  value: 9427321552913879294
+}
+AssetIdsOriginalToNew {
+  key: 6557599582012524465
+  value: 7044104410910169111
+}
+AssetIdsOriginalToNew {
+  key: 6762016823591674416
+  value: 15128655723739783080
+}
+AssetIdsOriginalToNew {
+  key: 6946025723107787401
+  value: 18165591808985798183
+}
+AssetIdsOriginalToNew {
+  key: 8020614351831259037
+  value: 4704133913029319246
+}
+AssetIdsOriginalToNew {
+  key: 11121166200894082244
+  value: 11443002302135942280
+}
+AssetIdsOriginalToNew {
+  key: 11484087496437454310
+  value: 10588556585159480133
+}
+AssetIdsOriginalToNew {
+  key: 12809615530754284548
+  value: 1544653853536961781
+}
+AssetIdsOriginalToNew {
+  key: 14586864932124995135
+  value: 14732156276972374737
+}
+AssetIdsOriginalToNew {
+  key: 16506287528652019293
+  value: 9106987316690272325
+}
+AssetIdsOriginalToNew {
+  key: 16759835224351652770
+  value: 8669292352075379635
+}
+AssetIdsOriginalToNew {
+  key: 18139232089156979890
+  value: 15692220835808866822
+}
+AssetIdsOriginalToNew {
+  key: 18199671351093448738
+  value: 17204764322434445720
+}
