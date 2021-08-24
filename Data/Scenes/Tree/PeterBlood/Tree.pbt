@@ -9,7 +9,7 @@ Objects {
       Z: 115
     }
     Rotation {
-      Yaw: -135.000015
+      Yaw: 161.197296
     }
     Scale {
       X: 1
@@ -207,9 +207,9 @@ Objects {
   Name: "Third Person Camera"
   Transform {
     Location {
-      X: -200
-      Y: -160
-      Z: 150
+      X: -80
+      Y: -90
+      Z: 188
     }
     Rotation {
       Yaw: 30
@@ -243,7 +243,7 @@ Objects {
     }
     RotationOffset {
     }
-    FieldOfView: 90
+    FieldOfView: 60
     ViewWidth: 1200
     RotationMode {
       Value: "mc:erotationmode:lookangle"
@@ -314,18 +314,12 @@ Objects {
       MountedJumpVelocity: 900
       HeadVisibleToSelf: true
       IsSlideEnabled: true
-      CanMoveForward: true
-      CanMoveBackward: true
-      CanMoveLeft: true
-      CanMoveRight: true
       AbilityAimMode {
         Value: "mc:eabilityaimmode:viewrelative"
       }
       AppearanceChannelingTime: 2
       MountChannelingTime: 2
       FlipOnMultiJump: true
-      CanMoveUp: true
-      CanMoveDown: true
       MaxHitpoints: 100
     }
   }
@@ -383,66 +377,6 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
-      key: 4374899803787261422
-      value {
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Pitch: -3.40838623
-            Yaw: -176.055832
-            Roll: 5.17522
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 4519282570961563539
-      value {
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Pitch: 61.1691628
-            Yaw: -66.7245178
-            Roll: 50.2832947
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 5500419746727860282
-      value {
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Pitch: -49.4381409
-            Yaw: 46.1686
-            Roll: -36.8675537
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 7575604988168679104
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 2092883.25
-            Y: -115891.328
-            Z: 50286.4844
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Pitch: -63.2254944
-            Yaw: 119.0886
-            Roll: 124.57016
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
       key: 8085910341982739388
       value {
         Overrides {
@@ -463,68 +397,9 @@ Objects {
           }
         }
         Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 8312394501842858126
-      value {
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Pitch: 5.22017
-            Yaw: -111.156525
-            Roll: 21.8692303
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 8702505918902439056
-      value {
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Pitch: -0.390411377
-            Yaw: 171.802948
-            Roll: 0.0774113089
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 12953452061920196379
-      value {
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Pitch: 5.22017
-            Yaw: -111.156525
-            Roll: 21.8692303
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 15569368982483638014
-      value {
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "bp:Haze Color"
-          Color {
-            R: 0.0156862941
-            B: 0.0274509825
-            A: 0.838000059
+          Name: "Visible"
+          Enum {
+            Value: "mc:evisibilitysetting:forceoff"
           }
         }
       }
@@ -557,7 +432,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2246,8 +2121,6 @@ Objects {
     AudioAsset {
       Id: 13987267465116478104
     }
-    AutoPlay: true
-    Repeat: true
     Volume: 1
     Falloff: -1
     Radius: -1
