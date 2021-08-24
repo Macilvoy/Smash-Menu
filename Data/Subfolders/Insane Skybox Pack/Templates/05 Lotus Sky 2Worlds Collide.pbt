@@ -7,7 +7,7 @@ Assets {
       RootId: 8085910341982739388
       Objects {
         Id: 8085910341982739388
-        Name: "Lotus Sky 2Worlds Collide"
+        Name: "Sky"
         Transform {
           Scale {
             X: 1
@@ -118,9 +118,9 @@ Assets {
           Overrides {
             Name: "bp:Haze Color"
             Color {
-              G: 0.120000005
-              B: 0.103311256
-              A: 0.708
+              R: 0.0156862941
+              B: 0.0274509825
+              A: 0.838000059
             }
           }
           Overrides {
@@ -330,6 +330,9 @@ Assets {
           Location {
           }
           Rotation {
+            Pitch: 5.22017
+            Yaw: -111.156525
+            Roll: 21.8692303
           }
           Scale {
             X: 1
@@ -400,7 +403,9 @@ Assets {
           Location {
           }
           Rotation {
-            Pitch: 64.9999237
+            Pitch: 61.1691628
+            Yaw: -66.7245178
+            Roll: 50.2832947
           }
           Scale {
             X: 1
@@ -454,8 +459,9 @@ Assets {
           Location {
           }
           Rotation {
-            Pitch: -25.303009
-            Yaw: -62.5814514
+            Pitch: -3.40838623
+            Yaw: -176.055832
+            Roll: 5.17522
           }
           Scale {
             X: 1
@@ -530,9 +536,9 @@ Assets {
           Location {
           }
           Rotation {
-            Pitch: -22.8434448
-            Yaw: -76.015625
-            Roll: 4.72481697e-05
+            Pitch: -0.390411377
+            Yaw: 171.802948
+            Roll: 0.0774113089
           }
           Scale {
             X: 1
@@ -604,9 +610,9 @@ Assets {
           Location {
           }
           Rotation {
-            Pitch: -33.9227905
-            Yaw: 143.455612
-            Roll: -14.8456116
+            Pitch: -49.4381409
+            Yaw: 46.1686
+            Roll: -36.8675537
           }
           Scale {
             X: 1
@@ -687,6 +693,9 @@ Assets {
           Location {
           }
           Rotation {
+            Pitch: 5.22017
+            Yaw: -111.156525
+            Roll: 21.8692303
           }
           Scale {
             X: 1
@@ -3308,14 +3317,14 @@ Assets {
         Name: "Sun Halo"
         Transform {
           Location {
-            X: -640040.312
-            Y: 1809592.5
-            Z: 843713.438
+            X: 2092883.25
+            Y: -115891.328
+            Z: 50286.4844
           }
           Rotation {
-            Pitch: -68.4018555
-            Yaw: 180
-            Roll: 180
+            Pitch: -63.2254944
+            Yaw: 119.0886
+            Roll: 124.57016
           }
           Scale {
             X: 1204.66614
