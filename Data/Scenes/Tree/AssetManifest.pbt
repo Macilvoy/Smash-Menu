@@ -44,6 +44,32 @@ Assets {
   }
 }
 Assets {
+  Id: 9097102358842120712
+  Name: "LastGame"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "44d3f749fd0e4f5eaab8c30338d55637"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
+  }
+}
+Assets {
+  Id: 6943019093983228311
+  Name: "SmashStatistic"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "18fbc1f644fc4d648308f091103e6464"
+      Type {
+        Value: "mc:enetreferencetype:sharedpersistence"
+      }
+    }
+  }
+}
+Assets {
   Id: 986233245340854443
   Name: "Humanoid 1 Cyber Sweater"
   PlatformAssetType: 26

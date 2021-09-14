@@ -1055,6 +1055,7 @@ Objects {
   }
   ParentId: 7033690634103776780
   ChildIds: 7420364413017076200
+  ChildIds: 1541445494696067183
   ChildIds: 5036268195952635020
   UnregisteredParameters {
   }
@@ -1119,7 +1120,7 @@ Objects {
     }
   }
   ParentId: 902208735665620236
-  ChildIds: 1541445494696067183
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1150,7 +1151,69 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5036268195952635020
+  ParentId: 902208735665620236
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:StorageKey"
+      NetReference {
+        Key: "18fbc1f644fc4d648308f091103e6464"
+        Type {
+          Value: "mc:enetreferencetype:sharedpersistence"
+        }
+      }
+    }
+    Overrides {
+      Name: "cs:LastGameKey"
+      NetReference {
+        Key: "44d3f749fd0e4f5eaab8c30338d55637"
+        Type {
+          Value: "mc:enetreferencetype:sharedpersistence"
+        }
+      }
+    }
+    Overrides {
+      Name: "cs:PlayedGames"
+      Int: 0
+    }
+    Overrides {
+      Name: "cs:GamesWon"
+      Int: 0
+    }
+    Overrides {
+      Name: "cs:TotalDamage"
+      Int: 0
+    }
+    Overrides {
+      Name: "cs:TotalDeath"
+      Int: 0
+    }
+    Overrides {
+      Name: "cs:LeaderboardRef"
+      NetReference {
+        Key: "3DDE97B54F79FBEA"
+        Type {
+          Value: "mc:enetreferencetype:leaderboard"
+        }
+      }
+    }
+    Overrides {
+      Name: "cs:PlayedGames:isrep"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:GamesWon:isrep"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:TotalDamage:isrep"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:TotalDeath:isrep"
+      Bool: true
+    }
+  }
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1419,6 +1482,38 @@ Objects {
     }
   }
   ParentId: 5301264701638163381
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Time"
+      ObjectReference {
+        SelfId: 11660493112823609989
+      }
+    }
+    Overrides {
+      Name: "cs:Fights"
+      ObjectReference {
+        SelfId: 5004287453308445119
+      }
+    }
+    Overrides {
+      Name: "cs:Wins"
+      ObjectReference {
+        SelfId: 2723368990466948968
+      }
+    }
+    Overrides {
+      Name: "cs:Damage"
+      ObjectReference {
+        SelfId: 5279645969943773119
+      }
+    }
+    Overrides {
+      Name: "cs:Deaths"
+      ObjectReference {
+        SelfId: 4281256084328328885
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7959,6 +8054,12 @@ Objects {
         SubObjectId: 15624189579786668589
         InstanceId: 8858025289600920639
         TemplateId: 16360568341073172784
+      }
+    }
+    Overrides {
+      Name: "cs:MenuServer"
+      ObjectReference {
+        SelfId: 1541445494696067183
       }
     }
   }

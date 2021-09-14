@@ -27,6 +27,7 @@ local LBBackButton = script:GetCustomProperty("BackButton_2"):WaitForObject()
 local PlayerIco = script:GetCustomProperty("Ico"):WaitForObject()
 local PlayerName = script:GetCustomProperty("Player"):WaitForObject()
 local NumbersFolder = script:GetCustomProperty("numbers"):WaitForObject()
+local ServerScript = script:GetCustomProperty("MenuServer"):WaitForObject()
 
 
 local Qgoing = false
@@ -92,6 +93,16 @@ function ProfClick()
 	ButtonClick:Play()
 	PlayerIco:SetPlayerProfile(LOCAL_PLAYER)
 	PlayerName.text = LOCAL_PLAYER.name
+	local value=CoreMath.Round(ServerScript:GetCustomProperty("PlayedGames")*3-(ServerScript:GetCustomProperty("TotalDeath")*0.1))
+	local days = math.floor(value / (24*60))
+    local hours = math.floor( (value - (days*(24*60)) )/60 )
+	local minutes = math.floor(value - ((days*(24*60))+(hours*60) ))
+    local String = string.format("%002i:%002i:%002i", tostring(days), tostring(hours), tostring(minutes))
+	script:GetCustomProperty("numbers"):WaitForObject():GetCustomProperty("Time"):WaitForObject().text=String
+	script:GetCustomProperty("numbers"):WaitForObject():GetCustomProperty("Fights"):WaitForObject().text=tostring(ServerScript:GetCustomProperty("PlayedGames"))
+	script:GetCustomProperty("numbers"):WaitForObject():GetCustomProperty("Wins"):WaitForObject().text=tostring(ServerScript:GetCustomProperty("GamesWon"))
+	script:GetCustomProperty("numbers"):WaitForObject():GetCustomProperty("Damage"):WaitForObject().text=tostring(ServerScript:GetCustomProperty("TotalDamage"))
+	script:GetCustomProperty("numbers"):WaitForObject():GetCustomProperty("Deaths"):WaitForObject().text=tostring(ServerScript:GetCustomProperty("TotalDeath"))
 	--NumbersFolder ------------------------------------------------------TEMP
 	MAINMENU.visibility = Visibility.FORCE_OFF
 	Events.Broadcast("CamToProfile")
