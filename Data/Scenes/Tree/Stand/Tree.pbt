@@ -20,12 +20,6 @@ Objects {
   ParentId: 6311405229301069922
   UnregisteredParameters {
     Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 15721419966900829305
-      }
-    }
-    Overrides {
       Name: "ma:Shared_BaseMaterial:utile"
       Float: 10.9388542
     }
@@ -34,11 +28,9 @@ Objects {
       Float: 0.427623659
     }
     Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        G: 1
-        B: 0.999999523
-        A: 1
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 9354031856730111042
       }
     }
   }
@@ -87,6 +79,14 @@ Objects {
     }
   }
   ParentId: 6311405229301069922
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 15903515203494330314
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
