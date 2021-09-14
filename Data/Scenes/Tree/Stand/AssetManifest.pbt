@@ -1,10 +1,10 @@
 Assets {
-  Id: 15721419966900829305
-  Name: "Animated Digital Racing Screen"
+  Id: 15903515203494330314
+  Name: "Bricks Layered Stone Floor 01"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
-    AssetId: "mi_clear-coat_001_chevron_uv1"
+    AssetId: "mi_brick_stone_floor_layered_001"
   }
 }
 Assets {
@@ -23,5 +23,14 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cylinder_002"
+  }
+}
+Assets {
+  Id: 9354031856730111042
+  Name: "Bricks Cobblestone Floor 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_brick_cobblestone_floor_001"
   }
 }

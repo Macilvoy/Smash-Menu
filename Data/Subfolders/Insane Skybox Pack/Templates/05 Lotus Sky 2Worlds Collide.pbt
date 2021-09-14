@@ -3482,7 +3482,7 @@ Assets {
   Marketplace {
     Description: "10 Skyboxes\r\n1. Northern Lights (Animated)\r\n2. Eclipse (Animated)\r\n3. Blood Moon\r\n4. Savannah morning\r\n5. 2 Worlds Collide\r\n6. Blackhole (Animated)\r\n7. Gotham City Night\r\n8. Carribean Day\r\n9. Purpe Thunderstorm\r\n10. Morty throws up lava (lol)"
   }
-  SerializationVersion: 95
+  SerializationVersion: 98
   DirectlyPublished: true
   VirtualFolderPath: "SkyboxPack"
 }

@@ -18,6 +18,7 @@ Objects {
   ChildIds: 3098120628914248954
   ChildIds: 7033690634103776780
   ChildIds: 1193438752795384924
+  ChildIds: 6526445577972523379
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -30,6 +31,72 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 6526445577972523379
+  Name: "Pipe - Half Thin"
+  Transform {
+    Location {
+      X: 358.16272
+      Y: -100
+      Z: 75.0445862
+    }
+    Rotation {
+      Pitch: 1.87347293
+      Yaw: 89.909256
+      Roll: -92.7697144
+    }
+    Scale {
+      X: 22.3015709
+      Y: 22.3015709
+      Z: 22.3015709
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 16717638023366534937
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.796000063
+        B: 0.173958763
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 9661253297580946876
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
   }
 }
 Objects {

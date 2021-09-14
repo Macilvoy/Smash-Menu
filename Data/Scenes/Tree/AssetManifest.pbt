@@ -8,6 +8,15 @@ Assets {
   }
 }
 Assets {
+  Id: 16717638023366534937
+  Name: "Animated Glowing Hex"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "fxma_hex_animated"
+  }
+}
+Assets {
   Id: 12578975480896512548
   Name: "Humanoid 1 Derby Leggings"
   PlatformAssetType: 26
@@ -23,6 +32,15 @@ Assets {
   PrimaryAsset {
     AssetType: "SkeletonAssetRef"
     AssetId: "npc_gal_wireframe_001_ref"
+  }
+}
+Assets {
+  Id: 9661253297580946876
+  Name: "Sphere - Half"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_hemisphere_001"
   }
 }
 Assets {
